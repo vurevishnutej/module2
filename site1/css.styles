@@ -1,0 +1,36 @@
+
+<style>
+	h1{
+		color: red;
+		text-align: center;
+		font-style: italic;
+	}
+	#p1{background-color: grey;
+		border:5px solid black;
+		 padding:10px;
+		width: 100px;
+		height:100px;
+		float: left
+	}
+	#p2{background-color: grey;
+		border: 5px solid black;
+		padding:10px;
+		width: 100px;
+		height: 100px;
+		float:left;
+
+	}
+	#p3{
+		background-color: grey;
+		border:5px solid black;
+		padding:10px;
+		width:100px;
+		height:100px;
+		float:left;
+	}
+	#content{
+		color: black;
+		font-size: 15px;
+		overflow: auto;
+	}
+</style>
