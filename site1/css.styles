@@ -12,29 +12,31 @@
 		font-style: italic;
 		font-size: 50px;
 		font-weight: 999px;
+		margin-top: 0px;
+		margin-bottom: 20px;
 	}
-	#p1{background-color: grey;
+	.p1{background-color: grey;
 		border:5px solid black;
 		 
 		width: 30%;
 		overflow: auto;
 		height: 150px;
-		margin-right: 20px;
-		margin-left: 20px;
-		padding: 10px;
-
 		
-	
-		float: left;
+		padding:0px;
+		float:left;
+		margin-top: 10px;
+		margin-right: 60px;
 		
 	}
-	#p2{background-color: grey;
+	.p2{background-color: grey;
 		border: 5px solid black;
-		padding:10px;
+		padding:0px;
 		width: 30%;
 		height:150px;
 		overflow: auto;
-		margin-right: 20px;
+		margin-right: 60px;
+		
+		margin-top:10px;
 		
 		
 		
@@ -42,13 +44,19 @@
 		
 
 	}
-	#p3{
+	body{
+		padding: 40px;
+		margin: 10px solid black;
+	}
+	.p3{
 		background-color: grey;
 		border:5px solid black;
-		padding:10px;
+		padding:0px;
 		width:30%;
 		height:150px;
 		overflow: auto;
+		margin-top: 10px;
+
 		
 	
 		
@@ -56,24 +64,27 @@
 
 	}
 	.content{
-		color: black;
+		color:black;
 		
 		overflow: auto;
-		margin-top: 30px;
+		margin-top: 5px;
 		font-size: 20px;
+		clear:both;
 
 
 		
 	}
 	p{
-		padding:5px;
+		padding:0px;
 		border:2px solid black;
 		background-color: yellow;
 		width:120px;
 		position:relative;
-		right:0;
-		top:0;
+		float:right;
+
 		font-size: 35px;
+		margin-bottom: 5px;
+		margin-top: 0px;
 		
 	
 	 
@@ -83,4 +94,56 @@
 	div{
 		margin-top: 50px;
 	}
+	.row{
+		width:100%;
+	}
+	@media(min-width: 992px){.col-lg-4{
+		float:left;
+		width:30%;
+	}
+
+}
+	@media(min-width: 768px and max-width: 991px){.col-md-6{
+		float:left;
+	
+		width:45%;
+	}
+	}
+		@media{
+		.col-md-12{
+			float:left;
+			width:90%;
+		}
+	
+	
+}
+@media(max-width: 767px){
+	}.col-sm-6{
+		width:90%;
+	}
+}
+	
+
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
